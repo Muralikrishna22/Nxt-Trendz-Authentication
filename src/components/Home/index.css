@@ -1,0 +1,20 @@
+.home-container {
+  margin: 30px;
+}
+
+.card-image {
+  width: 90%;
+}
+.description-container {
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-image {
+    width: 30%;
+  }
+  .card-container {
+    display: flex;
+  }
+}

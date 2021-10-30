@@ -1,0 +1,43 @@
+.nav-container {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-logo {
+  height: 7vh;
+}
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-left: 30px;
+}
+@media screen and (min-width: 768px) {
+  .nav-container {
+    flex-direction: row;
+  }
+  .tabs-container {
+    width: 40vw;
+    margin-left: 0px;
+  }
+}
+
+.tab-item {
+  text-decoration: none;
+  color: #475569;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.logout-btn {
+  height: 33px;
+  width: 120px;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+}
